@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team Kaushya | Smarter tools for the pre-cocoon stage of silk</title>
+<meta name="description" content="Team Kaushya, a student-led startup from Wisdom World School, Wakad, builds three low-cost machines for mounting, harvesting and sorting silkworm cocoons.">
+<meta property="og:title" content="Team Kaushya">
+<meta property="og:description" content="Three linked, low-cost machines for silk farmers: Aakar, Nivara and Vidura.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><ellipse cx='50' cy='50' rx='26' ry='36' fill='%23f7f3e6' stroke='%23d8a42c' stroke-width='8'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#home">Kaushya</a>
+  <nav aria-label="Main"><a href="#journey">Silk journey</a><a href="#problem">Problem</a><a href="#solutions">Machines</a><a href="#try">Try it</a><a href="#research">Research</a><a href="#status">Status</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="wrap">
+    <h1>Silk begins before the cocoon.</h1>
+    <p class="lead">Team Kaushya is a student-led startup from Wisdom World School, Wakad. We build three linked, low-cost machines that help silk farmers mount, harvest and sort cocoons.</p>
+    <p class="meta">National innovation and startup competition · Theme 2: Empowering Hands</p>
+  </div>
+  <svg class="thread" viewBox="0 0 900 260" role="img" aria-label="A silk thread passing through three machines: Aakar, Nivara and Vidura">
+    <path id="thread-path" pathLength="1" d="M10,170 C130,40 210,40 300,120 S470,230 570,125 S770,30 890,110"/>
+    <g class="node"><circle cx="300" cy="120" r="11"/><text x="300" y="158" text-anchor="middle">Aakar</text><text x="300" y="178" text-anchor="middle" class="sub">mount</text></g>
+    <g class="node"><circle cx="570" cy="125" r="11"/><text x="570" y="163" text-anchor="middle">Nivara</text><text x="570" y="183" text-anchor="middle" class="sub">harvest</text></g>
+    <g class="node"><circle cx="855" cy="97" r="11"/><text x="855" y="135" text-anchor="middle">Vidura</text><text x="855" y="155" text-anchor="middle" class="sub">sort</text></g>
+  </svg>
+</section>
+
+<section id="journey" class="block">
+  <div class="wrap">
+    <h2>The journey of a silk thread</h2>
+    <p class="intro">Mulberry silk comes from the silkworm <em>Bombyx mori</em>. Pick a stage to follow the thread. The gold stages are where Team Kaushya works.</p>
+    <div class="journey">
+      <div class="stages" role="tablist" aria-label="Silk life stages" id="stages"></div>
+      <div class="stage-panel" id="stagePanel" aria-live="polite"></div>
+    </div>
+    <ul class="funfacts">
+      <li><b>One thread</b> Each cocoon is a single continuous filament, often close to a kilometre long.</li>
+      <li><b>Only mulberry</b> The worms feed on mulberry leaves, so farms grow leaf as well as silk.</li>
+      <li><b>Two proteins</b> Fibroin forms the fibre. Sericin, the gum, glues it into a cocoon.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="problem" class="block dark">
+  <div class="wrap narrow">
+    <h2>Three stages, three struggles</h2>
+    <p>Farmers move through <strong>chandrika</strong> (mounting), harvesting and sorting. Each stage costs time and money.</p>
+    <dl class="facts">
+      <div><dt>₹30,000</dt><dd>spent by a farmer each year on hired harvesting labour</dd></div>
+      <div><dt>Uneven</dt><dd>cocoon size and shape, which makes reeling less consistent</dd></div>
+      <div><dt>Slow</dt><dd>manual sorting, one cocoon at a time</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="solutions" class="block tint">
+  <div class="wrap">
+    <h2>Our three machines</h2>
+    <p class="intro">One machine for each stage, designed to work together.</p>
+    <article class="sol">
+      <svg class="art" id="art-aakar" viewBox="0 0 320 240" role="img" aria-label="Honeycomb panels of the Aakar chandrika"></svg>
+      <div><h3>Aakar <span>mounting</span></h3>
+      <p>A collapsible plastic chandrika that keeps the familiar hexagonal form. Flat honeycomb panels are joined by hinges and sit on a frame with triangular ridges.</p>
+      <ul><li>Folds flat when removed, so it is easy to store</li><li>Aims for uniform cocoon size and shape</li></ul></div>
+    </article>
+    <article class="sol flip">
+      <svg class="art" id="art-nivara" viewBox="0 0 320 240" role="img" aria-label="Triangular ridges of the Nivara harvester"></svg>
+      <div><h3>Nivara <span>harvesting</span></h3>
+      <p>A rotary-style harvester. The plastic chandrika stays static on a frame with triangular ridges, and a matching-triangle top panel presses it down.</p>
+      <ul><li>A scraper plate with matching triangles pushes across</li><li>Cocoons drop into a collection tray</li></ul></div>
+    </article>
+    <article class="sol">
+      <svg class="art" id="art-vidura" viewBox="0 0 320 240" role="img" aria-label="Cocoon passing three colour sensors"></svg>
+      <div><h3>Vidura <span>sorting</span></h3>
+      <p>A sensor-based sorter that checks one cocoon at a time and separates good from bad.</p>
+      <ul><li>Hopper with an air-lock gate</li><li>3 TCS34725 colour sensors and an I2C multiplexer</li><li>HX711 load cell for weight</li><li>ESP32 controller</li></ul></div>
+    </article>
+  </div>
+</section>
+
+<section id="how" class="block">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="tabs" role="tablist" aria-label="Choose a stage">
+      <button role="tab" aria-selected="true" data-step="0">1. Mount</button><button role="tab" aria-selected="false" data-step="1">2. Harvest</button><button role="tab" aria-selected="false" data-step="2">3. Sort</button>
+    </div>
+    <div class="panel" id="panel" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="try" class="block tint">
+  <div class="wrap">
+    <h2>Try the Vidura sorter</h2>
+    <p class="intro">A simulation with illustrative values. Drop a cocoon and see how the sensors and load cell would judge it.</p>
+    <div class="lab">
+      <div class="rig" aria-hidden="true"><div class="hopper">Hopper</div><div class="cocoon" id="cocoon"></div><div class="bins"><div class="bin good">Good <b id="nGood">0</b></div><div class="bin bad">Bad <b id="nBad">0</b></div></div></div>
+      <div class="readout">
+        <button class="btn" id="drop">Drop a cocoon</button>
+        <p id="verdict" aria-live="polite">Waiting for a cocoon.</p>
+        <ul id="reads"></ul>
+        <p class="note">Common defects Vidura is built to catch: double cocoons, stained cocoons, thin or light shells, and misshapen cocoons.</p>
+      </div>
+    </div>
+    <h3 class="calc-h">Harvesting labour calculator</h3>
+    <div class="calc">
+      <label>Farmers <input type="range" id="farmers" min="1" max="100" value="10"><output id="oF">10</output></label>
+      <label>Years <input type="range" id="years" min="1" max="10" value="3"><output id="oY">3</output></label>
+      <p>Hired harvesting labour at about ₹30,000 per farmer each year: <strong id="total">₹9,00,000</strong></p>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="block">
+  <div class="wrap narrow">
+    <h2>Research and field work</h2>
+    <ul class="plain">
+      <li><strong>KSSRDI, Bangalore</strong> and <strong>CSTRI, Mysore</strong>: visits to learn how sericulture research and practice work.</li>
+      <li><strong>Dr Sunil Rathode</strong>, Scientist B, Central Silk Board: expert insight on the pre-cocoon stage.</li>
+      <li><strong>Farmers in Karnataka and Maharashtra</strong>: conversations about problems in the field.</li>
+    </ul>
+    <h3 class="calc-h">Sericulture words, explained</h3>
+    <div class="gloss">
+      <details><summary>Chandrika</summary><p>The mounting frame with small compartments where mature worms spin their cocoons.</p></details>
+      <details><summary>Instar</summary><p>A growth stage between moults. The silkworm passes through five instars as a larva.</p></details>
+      <details><summary>Deflossing</summary><p>Removing the loose outer fibre (floss) from a cocoon before reeling. It is part of our next concept.</p></details>
+      <details><summary>Stifling</summary><p>Using heat to kill the pupa so the moth cannot cut through the cocoon and break the filament.</p></details>
+      <details><summary>Reeling</summary><p>Unwinding cocoon filaments and combining them into raw silk thread.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="status" class="block tint">
+  <div class="wrap narrow">
+    <h2>Development status</h2>
+    <p>All three solutions are in the prototyping phase and still being developed.</p>
+    <ol class="timeline"><li class="done">Concept</li><li class="done">Sketches</li><li class="done">Design iterations</li><li class="now">Prototype <em>in progress</em></li></ol>
+    <p><strong>What’s next:</strong> a combined harvester and deflosser concept.</p>
+  </div>
+</section>
+
+<section id="contact" class="block dark">
+  <div class="wrap narrow">
+    <h2>Talk to the team</h2>
+    <p>Want to test a machine, share feedback or support us? Send a note.</p>
+    <a class="btn gold" href="mailto:your-email@example.com?subject=Hello%20Team%20Kaushya">Email Team Kaushya</a>
+  </div>
+</section>
+</main>
+<footer><p>Team Kaushya · Wisdom World School, Wakad · <span id="yr"></span></p></footer>
+<script src="script.js"></script>
+</body>
+</html>
